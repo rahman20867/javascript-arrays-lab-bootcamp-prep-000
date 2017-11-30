@@ -62,9 +62,7 @@ function removeFirstKitten() {
 function removeLastKitten() {
  var kittens1 = kittens;
 
-  kittens1 = kittens.splice(-1,1);
+  kittens1 = kittens.splice(0,-1);
 
   return kittens1;
 }
-
-console.log(kittens);
